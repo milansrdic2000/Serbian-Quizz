@@ -1,0 +1,25 @@
+.landing-page {
+ 
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // Hero sekcija (pocetna sekcija)
+  .hero-section {
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+    }
+    button {
+      display: block;
+
+      // width: 30%;
+      padding: 20px 5%;
+      margin: 0 auto;
+      margin-top: 30px;
+
+      cursor: pointer;
+    }
+  }
+}

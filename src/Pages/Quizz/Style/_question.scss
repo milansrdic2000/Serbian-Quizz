@@ -1,0 +1,70 @@
+.quiz-page {
+  .question-container {
+    // outline: 1px solid black;
+
+    width: 60%;
+    h1.question-title {
+      text-align: center;
+    }
+    p.question-text {
+      font-size: 1.5rem;
+    }
+
+    // ANSWERS
+
+    .answers-container {
+      display: flex;
+      flex-wrap: wrap;
+
+      .single-answer {
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 15px;
+        text-align: center;
+
+        // outline: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        button {
+          background-color: transparent;
+          padding: 10px 10px;
+          display: block;
+          width: calc(100% - 43px);
+          border-radius: 15px;
+
+          cursor: pointer;
+
+          &.correct-answer {
+            background-color: aquamarine;
+          }
+          &.incorrect-answer {
+            background-color: red;
+          }
+        }
+        & > img {
+          width: 40px;
+          visibility: hidden;
+          &.visible {
+            visibility: visible;
+          }
+        }
+        &:nth-of-type(2n-1) {
+          margin-right: auto;
+        }
+        &:nth-of-type(2n) {
+          // margin-left: calc(5% + 50px);
+          margin-right: 3px;
+        }
+      }
+    }
+
+    // Tacno/netacno i opis odgovora
+    h2.correct-heading {
+      text-align: center;
+    }
+    p.question-explanation {
+      text-align: center;
+    }
+  }
+}

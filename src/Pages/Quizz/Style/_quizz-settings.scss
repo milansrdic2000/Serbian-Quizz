@@ -1,0 +1,23 @@
+.quiz-page {
+  .quizz-type-row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+
+    .single-quizz-type {
+      width: 20%;
+      display: flex;
+      button {
+        display: block;
+        width: 100%;
+        border: 1px solid black;
+        padding: 20px 20px;
+
+        background-color: transparent;
+
+        cursor: pointer;
+      }
+    }
+  }
+}

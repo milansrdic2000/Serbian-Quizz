@@ -1,0 +1,17 @@
+// global scss
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: Signika Negative, serif;
+  background-color: rgb(181, 207, 13);
+}

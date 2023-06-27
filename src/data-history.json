@@ -1,0 +1,59 @@
+[
+  {
+    "questionText": "Koje godine je krunisan Car Dušan Silni?",
+    "questionCategory": "istorija",
+    "answerList": [
+      {
+        "answer": "1389."
+      },
+      {
+        "answer": "1346.",
+        "correct": true
+      },
+      {
+        "answer": "1300."
+      },
+      {
+        "answer": "1356."
+      }
+    ]
+  },
+  {
+    "questionText": "Koja od ovih ličnosti je vezana za francusku revoluciju",
+    "questionCategory": "istorija",
+    "answerList": [
+      {
+        "answer": "Marija Antoaneta"
+      },
+      {
+        "answer": "Maksimilijan Robespjer",
+        "correct": true
+      },
+      {
+        "answer": "Zan Zak Ruso"
+      },
+      {
+        "answer": "Onore De Balzak"
+      }
+    ]
+  },
+  {
+    "questionText": "Koji srpski vladar je ubijen prilikom dogadjaja koji nazivamo majski prevrat",
+    "questionCategory": "istorija",
+    "answerList": [
+      {
+        "answer": "Karađorđe"
+      },
+      {
+        "answer": "Knez Mihajlo Obrenović"
+      },
+      {
+        "answer": "Kralj Milan Obrenović"
+      },
+      {
+        "answer": "Kralj Aleksandar Obrenović",
+        "correct": true
+      }
+    ]
+  }
+]
