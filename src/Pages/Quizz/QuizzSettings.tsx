@@ -19,6 +19,7 @@ const QuizzSettings = ({
             }}
           >
             Istorija
+            <img src='/images/Car-Dusan-Silni.jpg' alt='' />
           </button>
         </div>
         <div className='single-quizz-type'>
@@ -29,16 +30,7 @@ const QuizzSettings = ({
             }}
           >
             Geografija
-          </button>
-        </div>
-        <div className='single-quizz-type'>
-          <button
-            onClick={() => {
-              setQuizzStarted(true)
-              setQuizzType('Kombinovano')
-            }}
-          >
-            Kombinovano
+            <img src='/images/djerdap1.jpg' alt='' />
           </button>
         </div>
       </div>

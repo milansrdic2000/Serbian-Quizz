@@ -5,9 +5,12 @@
     width: 60%;
     h1.question-title {
       text-align: center;
+      margin-top: 20px;
+      font-size: 2.5rem;
     }
     p.question-text {
       font-size: 1.5rem;
+      font-weight: bold;
     }
 
     // ANSWERS
@@ -26,25 +29,37 @@
         // outline: 1px solid black;
         display: flex;
         justify-content: space-between;
+
         button {
           background-color: transparent;
           padding: 10px 10px;
           display: block;
-          width: calc(100% - 43px);
+          width: calc(100% - 46px);
           border-radius: 15px;
+
+          font-family: Signika Negative, serif;
+          font-size: 1.2rem;
+
+          transition: all 0.3s linear;
 
           cursor: pointer;
 
+          border: 3px solid black;
+          &:hover {
+            background-color: rgb(181, 207, 13);
+          }
+
           &.correct-answer {
-            background-color: aquamarine;
+            background-color: rgb(103, 255, 1);
           }
           &.incorrect-answer {
             background-color: red;
           }
         }
         & > img {
-          width: 40px;
+          width: 43px;
           visibility: hidden;
+          align-self: center;
           &.visible {
             visibility: visible;
           }

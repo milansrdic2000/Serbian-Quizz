@@ -1,6 +1,6 @@
 @use './quizz-settings';
 @use './question';
-
+@use './timer';
 .quiz-page {
   min-height: 100vh;
 
@@ -9,7 +9,15 @@
   align-items: center;
   flex-direction: column;
 
-  margin-top: 20%;
+  padding-top: 20%;
+
+  .progress-heading {
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  .accuracy-heading {
+    font-size: 1.8rem;
+  }
 
   .quizz-navigation-container {
     margin-top: 10px;
@@ -26,6 +34,9 @@
       padding: 20px 10px;
       background-color: transparent;
       cursor: pointer;
+
+      color: black;
+      border: 2px solid black;
     }
     #restart-quizz {
       position: absolute;

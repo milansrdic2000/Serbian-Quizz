@@ -2,6 +2,7 @@
   {
     "questionText": "Koje godine je krunisan Car Dušan Silni?",
     "questionCategory": "istorija",
+    "questionType": "OneAnswer",
     "answerList": [
       {
         "answer": "1389."
@@ -19,21 +20,22 @@
     ]
   },
   {
-    "questionText": "Koja od ovih ličnosti je vezana za francusku revoluciju",
+    "questionText": "Ko je bio srpski vožd u Prvom srpskom ustanku?",
     "questionCategory": "istorija",
+    "questionType": "OneAnswer",
     "answerList": [
       {
-        "answer": "Marija Antoaneta"
-      },
-      {
-        "answer": "Maksimilijan Robespjer",
+        "answer": "Karađorđe Petrović",
         "correct": true
       },
       {
-        "answer": "Zan Zak Ruso"
+        "answer": "Milan Obrenović"
       },
       {
-        "answer": "Onore De Balzak"
+        "answer": "Stevan Sinđelić"
+      },
+      {
+        "answer": "Vuk Karadžić"
       }
     ]
   },
@@ -52,6 +54,106 @@
       },
       {
         "answer": "Kralj Aleksandar Obrenović",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "questionText": "Koja bitka se odigrala 1389. godine?",
+    "questionCategory": "istorija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Bitka na Kosovu",
+        "correct": true
+      },
+      {
+        "answer": "Bitka kod Marice"
+      },
+      {
+        "answer": "Bitka na Ceru"
+      },
+      {
+        "answer": "Bitka kod Niša"
+      }
+    ]
+  },
+  {
+    "questionText": "Koja srpska vojvoda je poznata kao Baba-Vojvotkinja",
+    "questionCategory": "istorija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Milunka Savić",
+        "correct": true
+      },
+      {
+        "answer": "Jelena Anžujska"
+      },
+      {
+        "answer": "Zorka Karađorđević"
+      },
+      {
+        "answer": "Nadežda Petrović"
+      }
+    ]
+  },
+  {
+    "questionText": "Ko je bio srpski vožd u Drugom srpskom ustanku?",
+    "questionCategory": "istorija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Miloš Obrenović",
+        "correct": true
+      },
+      {
+        "answer": "Karađorđe Petrović"
+      },
+      {
+        "answer": "Stevan Sinđelić"
+      },
+      {
+        "answer": "Vuk Karadžić"
+      }
+    ]
+  },
+  {
+    "questionText": "Ko je bio prvi srpski arhiepiskop?",
+    "questionCategory": "istorija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Sveti Sava",
+        "correct": true
+      },
+      {
+        "answer": "Sveti Vladimir"
+      },
+      {
+        "answer": "Sveti Stefan"
+      },
+      {
+        "answer": "Sveti Nikola"
+      }
+    ]
+  },
+  {
+    "questionText": "Koji srpski vladar je proglasio Hrišćanstvo za zvaničnu religiju?",
+    "questionCategory": "istorija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Stefan Nemanja"
+      },
+      {
+        "answer": "Stefan Dušan"
+      },
+      {
+        "answer": "Stefan Lazarević"
+      },
+      {
+        "answer": "Stefan Uroš",
         "correct": true
       }
     ]

@@ -1,0 +1,202 @@
+[
+  {
+    "questionText": "Koja reka protiče kroz Beograd?",
+    "questionCategory": "geografija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Dunav",
+        "correct": true
+      },
+      {
+        "answer": "Sava"
+      },
+      {
+        "answer": "Drina"
+      },
+      {
+        "answer": "Morava"
+      }
+    ]
+  },
+  {
+    "questionText": "Koja planina se nalazi na jugozapadu Srbije?",
+    "questionCategory": "geografija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Tara"
+      },
+      {
+        "answer": "Zlatibor"
+      },
+      {
+        "answer": "Kopaonik"
+      },
+      {
+        "answer": "Prokletije",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "questionText": "Koje jezero se nalazi na teritoriji Srbije?",
+    "questionCategory": "geografija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Bledsko jezero"
+      },
+      {
+        "answer": "Ohridsko jezero"
+      },
+      {
+        "answer": "Skadarsko jezero"
+      },
+      {
+        "answer": "Palićko jezero",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "questionText": "Koja reka je najduža u Srbiji?",
+    "questionCategory": "geografija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Dunav"
+      },
+      {
+        "answer": "Drina"
+      },
+      {
+        "answer": "Sava"
+      },
+      {
+        "answer": "Morava",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "questionText": "Koja planina se nalaze na teritoriji Nacionalnog parka Đerdap?",
+    "questionCategory": "geografija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Kopaonik",
+        "correct": true
+      },
+      {
+        "answer": "Fruška gora"
+      },
+      {
+        "answer": "Stara planina"
+      },
+      {
+        "answer": "Šar planina"
+      }
+    ]
+  },
+  {
+    "questionText": "Koja reka formira prirodnu granicu između Srbije i Rumunije?",
+    "questionCategory": "geografija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Dunav",
+        "correct": true
+      },
+      {
+        "answer": "Sava"
+      },
+      {
+        "answer": "Drina"
+      },
+      {
+        "answer": "Morava"
+      }
+    ]
+  },
+  {
+    "questionText": "Koje jezero se nalazi na teritoriji nacionalnog parka Tara?",
+    "questionCategory": "geografija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Bledsko jezero"
+      },
+      {
+        "answer": "Ohridsko jezero"
+      },
+      {
+        "answer": "Skadarsko jezero"
+      },
+      {
+        "answer": "Perućac",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "questionText": "Koja planina se nalazi na severu Srbije?",
+    "questionCategory": "geografija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Tara"
+      },
+      {
+        "answer": "Zlatibor"
+      },
+      {
+        "answer": "Kopaonik"
+      },
+      {
+        "answer": "Fruška gora",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "questionText": "Koji kanjon se nalazi na reci Uvac?",
+    "questionCategory": "geografija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Kanjon reke Trešnjice"
+      },
+      {
+        "answer": "Kanjon reke Ibra"
+      },
+      {
+        "answer": "Kanjon reke Drine"
+      },
+      {
+        "answer": "Kanjon reke Uvac",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "questionText": "Koja reka teče kroz Đerdapsku klisuru?",
+    "questionCategory": "geografija",
+    "questionType": "OneAnswer",
+    "answerList": [
+      {
+        "answer": "Dunav",
+        "correct": true
+      },
+      {
+        "answer": "Sava"
+      },
+      {
+        "answer": "Drina"
+      },
+      {
+        "answer": "Morava"
+      }
+    ]
+  }
+]

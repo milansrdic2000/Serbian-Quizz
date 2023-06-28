@@ -13,6 +13,7 @@ const Landing = () => {
           nasledju
         </h1>
         <button
+          className='btn-default'
           onClick={() => {
             history('/quizz')
           }}

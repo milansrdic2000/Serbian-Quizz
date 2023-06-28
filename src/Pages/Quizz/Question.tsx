@@ -9,6 +9,7 @@ interface QuestionProps {
   setIsAnswerCorrect: (value: boolean) => void
   isAnswerCorrect: boolean
   calculateStatistics: (value: boolean) => void
+  setQuizStarted: (value: boolean) => void
 }
 
 const Question = (props: QuestionProps) => {
@@ -20,6 +21,7 @@ const Question = (props: QuestionProps) => {
     isAnswerCorrect,
     setIsAnswerCorrect,
     calculateStatistics,
+    setQuizStarted,
   } = props
 
   const [selectedAnswerIndex, setSelectedAnswerIndex] = useState<number>(-1)

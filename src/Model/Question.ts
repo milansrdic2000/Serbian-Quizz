@@ -2,6 +2,7 @@ export class Question {
   questionText: string = ''
   answerList: Answer[] = []
   questionCategory: string = ''
+  questionType: QuestionType = QuestionType.OneAnswer
 
   constructor(
     $questionText: string,
@@ -13,7 +14,11 @@ export class Question {
     this.questionCategory = $questionCategory
   }
 }
-
+enum QuestionType {
+  OneAnswer,
+  MultipleAnswer,
+  Write,
+}
 export class Answer {
   answer: string = ''
   correct: boolean = false

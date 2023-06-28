@@ -6,17 +6,49 @@
     width: 80%;
 
     .single-quizz-type {
-      width: 20%;
+      width: 40%;
       display: flex;
+
+      &:nth-of-type(2) {
+        button {
+          color: white;
+        }
+      }
       button {
         display: block;
         width: 100%;
         border: 1px solid black;
-        padding: 20px 20px;
+        padding: 70px 20px;
 
         background-color: transparent;
 
         cursor: pointer;
+
+        position: relative;
+        overflow: hidden;
+        color: white;
+
+        text-align: left;
+
+        font-size: 2rem;
+        font-family: Signika Negative, serif;
+
+        font-weight: 900;
+
+        letter-spacing: 7px;
+
+        border-radius: 15px;
+        border: none;
+        img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: top;
+          top: 0px;
+          left: 0px;
+          z-index: -1;
+        }
       }
     }
   }
