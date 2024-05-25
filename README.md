@@ -1,3 +1,30 @@
+export function selectGridRecord(
+  agGridElement: any,
+  colId: string,
+  value: string,
+  ctrlClick: boolean = false
+) {
+  // click on row and check if it is swallowed by ag grid real time update. If swallowed, click again after a small delay, to ensure it is selected
+  getRowByColumnValue(agGridElement, colId, value).then(($el1) => {
+    const isSelectedBeforeClick = $el1.closest('.ag-row').hasClass('ag-row-selected');
+    getRowByColumnValue(agGridElement, colId, value)
+      .click({ ctrlKey: ctrlClick })
+      .then(() => {
+        // clicking on split column will not select the row but will open the split drilldown mode
+        if (colId === 'split') return;
+        getRowByColumnValue(agGridElement, colId, value).then(($el2) => {
+          const isSelectedAfterClick = $el2.closest('.ag-row').hasClass('ag-row-selected');
+          if (isSelectedBeforeClick === isSelectedAfterClick) {
+            cy.wait(1000);
+            getRowByColumnValue(agGridElement, colId, value).click({ ctrlKey: ctrlClick });
+          }
+        });
+      });
+  });
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
